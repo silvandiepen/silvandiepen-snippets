@@ -8,7 +8,8 @@ tags: ios, css, clipping-path
 Lately I’ve been working more and more with clipping path animations, unfortunately I still have to write ugly fixes to get them working in another “modern” browser called “Edge” so the experience isn’t all that. But yeah, thats what you choose when using that browser.
 A litte animation like this, just shows the element when it gets a class is-active.```
 
-```.element {
+```
+.element {
     clip-path: inset(0 0 0 100%);
     transition: clip-path 0.5s ease-in-out;
     &.is-active {
