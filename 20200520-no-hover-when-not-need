@@ -1,0 +1,12 @@
+I’ve been using the hover for a long time just to get things triggered on mobile. This is great! A mobile menu for instance can do very nice things with opening and closing just using the hover, no other logic is required and works perfect on iOS devices.
+But sometimes, the hover is just a visual thing. In that case, iOS makes you click twice on the same link in order to actually use it. This can be really annoying! But I’ve found a solution, which apparently was there all the time already but I just didn’t know about it.
+
+```css
+@media (hover: hover) {
+  a:hover {
+    background: yellow;
+   }
+}
+```
+
+Just using a media query, put your hovers in there and they will only be used on devices which do use the hover in a “normal” matter.
