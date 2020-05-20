@@ -1,3 +1,5 @@
+# Transforming SVGs
+
 The only way you can use a SVG in your code and actually be (easily) able to style the separate elements with transform or color, is by doing it inline. Thats something we can live with, but actually translating paths or polygons or just the whole svg, can be quite a struggle sometimes. Why doesn’t the transform-origin just work, or not in the way you expect it to?
 Well actually, it can! It just involves an extra property and it will release you from lots of struggles.
 
