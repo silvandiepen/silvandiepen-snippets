@@ -1,3 +1,8 @@
+---
+category: css
+tags: css, hover, media-query
+---
+
 # No hover, when not needed
 
 I’ve been using the hover for a long time just to get things triggered on mobile. This is great! A mobile menu for instance can do very nice things with opening and closing just using the hover, no other logic is required and works perfect on iOS devices.
