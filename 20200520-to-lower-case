@@ -1,0 +1,33 @@
+---
+category: code
+tags: js, css, php
+---
+
+# to Lowercase
+
+Converting a string to lowercase has another syntax in any other language. Which one is which again?
+
+Scss
+```scss
+to-lower-case($string)
+```
+
+JS / Java
+```js
+string.toLowerCase();
+```
+
+PHP
+```php
+strtolower($string)
+```
+
+Python
+```python
+string.lower()
+```
+
+C
+```c
+tolower(c)
+```
