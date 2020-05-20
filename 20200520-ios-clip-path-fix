@@ -3,8 +3,7 @@ category: css
 tags: ios, css, clipping-path
 ---
 
-# iOS and Clipping paths 
-
+# iOS and Clipping paths
 
 Lately I’ve been working more and more with clipping path animations, unfortunately I still have to write ugly fixes to get them working in another “modern” browser called “Edge” so the experience isn’t all that. But yeah, thats what you choose when using that browser.
 A litte animation like this, just shows the element when it gets a class is-active.```
